@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!--Actividad 11
+
+Crearemos una página con unos párrafos de texto, y agregaremos un índice de contenidos (un enlace a cada párrafo), lo convertiremos en un bloque independiente mediante una etiqueta <div> e intentaremos colocarlo en un lateral de la página empleando los estilos. Para terminar, probaremos a modificar la apariencia de ese bloque mediante estilos.-->
+
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Actividad 11</title>
+			<link rel="stylesheet" href="">
+
+	</head>
+	<body>
+
+		<h1>Lista de elementos HTML5</h1>
+		<P>Vamos a elaborar una lista con los principales elementos utilizados en HTML5.</P>
+
+		<div style="background-color:white;postition:absolute;left:100px;width:200px">
+				
+			<h2>Elemento raíz</h2>
+		<a href="#html">&lt;html&gt;</a><br>
+
+			<h2>Metadata del documento</h2>
+		<a href="#head">&lt;head&gt;</a><br>
+		<a href="#base">&lt;base&gt;</a><br>
+		<a href="#link">&lt;link&gt;</a><br>
+		<a href="#meta">&lt;meta&gt;</a><br>
+		<a href="#style">&lt;style&gt;</a><br>
+
+		</div> <br>
+		
+		<div style="background-color:rgb(220,245,230);position:absolute;top:1500px;left:90px;width:1100px">
+			
+		<p id="html">--html--Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento.
+		</p> </div>
+
+		<div style="background-color:rgb(220,245,230);position:absolute;top:2500px;left:90px;width:1100px">
+		<p id="head">--head--Representa una coleccion de metadatos sobre el documento, incluyendo enlaces o definiciones de scripts y hojas de estilo.
+		</p> </div>
+
+		<div style="background-color:rgb(220,245,230);position:absolute;top:3500px;left:90px;width:1100px">
+		<p id="title">--title--Define el titulo del documento, el cual se muestra en la barra de titulo del navegador o en las páginas de la pestaña. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.
+		</p> </div>
+
+		<div style="background-color:rgb(220,245,230);position:absolute;top:4500px;left:90px;width:1100px">
+		<p id="base">--base--Define la URL base para la URL relativa en la página.
+		</p> </div>
+		
+		<div style="background-color:rgb(220,245,230);position:absolute;top:5500px;left:90px;width:1100px">
+		<p id="link">--link--Usada para enlazar JavaScript y CSS externos con el actual documento HTML.
+		</p> </div>
+
+		<div style="background-color:rgb(220,245,230);position:absolute;top:6500px;left:90px;width:1100px">
+		<p id="meta">--meta--Define la metadata que no puede ser definida usando otro elemento HTML.
+		</p> </div>
+
+		<div style="background-color:rgb(220,245,230);position:absolute;top:7500px;left:90px;width:1100px">
+		<p id="style">--style--Etiqueta de estilo es usada para escribir CSS en línea.</p>
+
+		</div>
+		
+
+	</body>
+</html>

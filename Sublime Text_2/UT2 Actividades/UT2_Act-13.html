@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!--Actividad 13
+
+Tomando como información la contenida en la página crea una página, utilizando las etiquetas de estructura de HTML5 que estimes convenientes. Intenta aplicar, al igual que lo harías con los div estilo para posicionar cada dato en su lugar. No hace falta incluir todo los datos, únicamente el menú principal, los artículos, una cabecera y un pie.-->
+
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Secciones HTML5 y agrupadores de contenido</title>
+			<link rel="stylesheet" href="">
+
+	</head>
+	<body>
+
+<h1>Lenguajes de Marcas</h1>
+
+<header> <h3>Secciones HTML5 y agrupadores de contenido:</h3></header>
+
+<article>
+
+Para mejorar la estructura de las páginas y evitar el uso de otras etiquetas <em>(div)</em> <strong>HTML 5</strong> añade nuevas etiquetas para clasificar el contenido por secciones y según su utilidad o importancia. Estas etiquetas son:<br>
+
+<ul>
+<li>&lt;header&gt;- Sirve para insertar información como título, logo, enlaces a modo de introducción de la página.</li>
+<li>&lt;nav&gt;- Sección con enlaces a otras páginas, esto es, los los menús de navegación.</li>
+<li>&lt;section>- Permite insertar una sección general dentro de un documento. Suele contener &lt;h1&gt;, &lt;h2&gt;,... para crear jerarquías. Puede anidarse.</li>
+<li>&lt;article&gt;- Es un elemento atómico con el objetivo de que pueda reutilizarse (post de un foro, entrada de un blog, artículo de periódico, comentario de un usuario, etc.</li>
+<li>&lt;aside&gt;- Es una sección relacionada indirectamente con el contenido. Son por ejemplo las barras laterales, publicidad, enlaces a otras webs.</li>
+<li>&lt;footer&gt;- Pie de página, que suele contener autor, copyright, año, mapa del sitio, etc.</li>
+</ul>
+
+</article>
+
+<article>Los elementos clásicos para establecer agrupamientos (HTML 4.01 y XHTML) son los <em>div y span</em>:<br>
+
+<ul>
+<li>&lt;div&gt;</li>- Sirve para agrupar varios elementos dentro de un bloque. Permite tratarlos como un conjunto asignándoles un identificador, una clase o un estilo.
+<li>&lt;span&gt;</li>- Parecido a un div pero para elementos en línea. Sobre todo se utiliza para asirgnar nombre, estilo o clase a un trozo de texto.
+</ul>
+</article>
+
+<article>
+Utilizando algunos estilos vistos en clase, principalmente:<br>
+
+<ul>
+<li> <strong>position: absolute;</strong> indica que vamos a establecer una posición fija para ese &lt;div&gt; en la ágina. El resto de los valores situarán el elemento de diferente forma.</li>
+<li><strong>left</strong> (izquierdo), <strong>right</strong> (derecho), <strong>bottom</strong> (inferior) y <strong>top</strong> (superior): estos valores, seguidos de un <strong>número de píxeles, porcentaje</strong> u otros valores, establecen la distancia que habrá entre el div y el borde respectivo.</li>
+<li><strong>width</strong> (ancho) y <strong>height</strong> (alto): indican la altura o anchura que tendrá el cuadro.</li>
+</ul>
+</article>
+
+
+<aside>
+<h4>Actividad 11</h4>
+
+<p>Crearemos una página con unos párrafos de texto, y agregaremos un índice de contenidos (un enlace a cada párrafo), lo convertiremos en un bloque independiente mediante una etiqueta &lt;div&gt; e intentaremos colocarlo en un lateral de la página empleando los estilos. Para terminar, probaremos a modificar la apariencia de ese bloque mediante estilos.</p>
+
+<h4>Actividad 12</h4>
+
+<p>Tomando una página de ejemplo con abundante texto, probaremos a dividirla en dos columnas y posteriormente en tres. Probaremos a separar el interior de las columnas con diferentes tamaños, para dilucidar cuál es la que aporta mayor legibilidad al texto.</p>
+
+<h4>Actividad 13</h4>
+
+<p>Tomando como información la contenida en la página crea una página, utilizando las etiquetas de estructura de HTML5 que estimes convenientes. Intenta aplicar, al igual que lo harías con los <em>div</em> estilo para posicionar cada dato en su lugar. No hace falta incluir todo los datos, únicamente el menú principal, los artículos, una cabecera y un pie.</p>
+</aside>
+
+<footer style= "background-color:orange;position:absolute;width:1350px;height:1350;text-align:center;">Ud. está en el sistema como Rodrigo Fernández Guzmán.</footer>
+		
+	</body>
+
+</html>

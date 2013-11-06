@@ -12,6 +12,8 @@
 				    table,td {border: 1px solid white;}
 				    a {color:lightblue;}
 			</style>
+
+			<p id="inicio"></p>
 	
 	</head>
 	<body>
@@ -199,127 +201,322 @@
 			</tr>
 		</table>
 
+<p style="background-color: red; padding:0.5em;"><em><a href="#inicio">Volver al inicio</a><br></em>
+				<hr>
+
 	<h2>10</h2>
 		<table border="1" style="width:100%;border:2px solid green; background-color:grey"  cellpadding="20px"cellspacing="20px">
 			<tr>
-				<td style="width:50%">
-					Distancia desde los bordes: 20px <br>
-					Distancia de los border al contenido: 20px <br>
-					Color del borde: 2px solid green <br>
-					Color del fondo gris
-				</td>
-				<td style="width:50%">
-					Celda 2 
-				</td>	
+							<td style="width:50%">
+								Distancia desde los bordes: 20px <br>
+								Distancia de los border al contenido: 20px <br>
+								Color del borde: 2px solid green <br>
+								Color del fondo gris
+							</td>
+							<td style="width:50%">
+								Celda 2 
+							</td>	
 			</tr>
 			<tr>
-				<td style="width:50%">
-					Celda 3 
-				</td>
-				<td style="width:50%">
-					Celda 4 
-				</td>	
-			</tr>
+							<td style="width:50%">
+								Celda 3 
+							</td>
+							<td style="width:50%">
+								Celda 4 
+							</td>	
+						</tr>
 		</table>
 
 	<h2>11</h2>
 		<table border="1" style="width:100%;border:2px solid green; background-color:grey"  cellpadding="20px"cellspacing="20px">
-			<tr>
-				<td style="width:50%; background-color:orange;">
-					Distancia desde los bordes: 20px <br>
-					Distancia de los border al contenido: 20px <br>
-					Color del borde: 2px solid green <br>
-					Color del fondo gris <br>
-					Color celda naranja
-				</td>
-				<td style="width:50%;">
-					Celda 2 
-				</td>	
-			</tr>
-			<tr>
-				<td style="width:50%;background-color:orange;">
-					Color celda naranja
-				</td>
-				<td style="width:50%;background-color:orange;">
-					Color celda naranja
-				</td>	
-			</tr>
+				<tr>
+						<td style="width:50%; background-color:orange;">
+							Distancia desde los bordes: 20px <br>
+							Distancia de los border al contenido: 20px <br>
+							Color del borde: 2px solid green <br>
+							Color del fondo gris <br>
+							Color celda naranja
+						</td>
+						<td style="width:50%;">
+							Celda 2 
+						</td>	
+				</tr>
+				<tr>
+						<td style="width:50%;background-color:orange;">
+							Color celda naranja
+						</td>
+						<td style="width:50%;background-color:orange;">
+							Color celda naranja
+						</td>	
+				</tr>
 		</table>
+
 
 	<h2>12 alineamiento</h2>
 	<h3>Usando atributos: <em>aling y valing</em></h3>
-		<table border="1" style="width:100%;"  cellpadding="20px">
-			<tr><!--align="left|right|center|justify|char"-->
-				<td align="right">
-					Derecha
-				</td>
-				<td align="center">
-					Centro
-				</td>
-				<td align="left">
-					Iquierda 
-				</td>	
-			</tr>
-			<tr> <!--valign="top|middle|bottom|baseline"-->
-				<td valing="top">
-					Arriba
-				</td>
-				<td valing="bottom">
-					Centro
-				</td>
-				<td valing="baseline">
-					Abajo 
-				</td>	
-				<tr> <!--valign="top|middle|bottom|baseline"-->
-				<td valing="top">
-					Arriba derecha
-				</td>
-				<td valing="bottom">
-					Centro
-				</td>
-				<td valing="baseline">
-					Abajo  izquierda
-				</td>	
-			</tr>
-		</table>
+		<table style="width:100%; border-spacing:0px">
+                        <tr>
+                                <td align="right" style="width:40%; height:50px">
+                                        Derecha
+                                </td>
+                                <td  align="center" style="width:20%">
+                                        Centro
+                                </td>
+                                <td  align="left" style="width:40%">
+                                        Izquierda
+                                </td>
+                        </tr>
+                        <tr>
+                                <td valign="top" style="width:40%;height:50px">
+                                        Arriba
+                                </td>
+                                <td style="width:20%">
+                                        Centro
+                                </td>
+                                <td valign="bottom" style="width:40%">
+                                        Abajo
+                                </td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="right" style="width:40%;height:50px">
+                                        Arriba derecha
+                                </td>
+                                <td  align="center" style="width:20%">
+                                        Centro
+                                </td>
+                                <td valign="bottom" align="left" style="width:40%">
+                                        Abajo izquierda
+                                </td>
+                        </tr>
+                </table>
 
 		<h3>Usando estilos: <em>text-aling</em> y <em>vertical-aling</em></h3>
-		<table border="1" style="width:100%;"  cellpadding="20px">
-			<tr><!--align="left|right|center|justify|char"-->
-				<td align="right">
-					Derecha
-				</td>
-				<td align="center">
-					Centro
-				</td>
-				<td align="left">
-					Iquierda 
-				</td>	
-			</tr>
-			<tr> <!--text-align:center, left, right;"-->
-							
-				<td style="text-aling: right;">
-					Arriba
-				</td>
-				<td style="text-aling: center;">
-					Centro
-				</td>
-				<td style="text-aling: left;">
-					Abajo 
-				</td>	
-				<tr> <!--vertical-align:text-top;"-->
-				<td style="vertical-aling:text-top">
-					Arriba derecha
-				</td>
-				<td style="vertical-aling:text-midle">
-					Centro
-				</td>
-				<td style="vertical-aling:text-baseline">
-					Abajo  izquierda
-				</td>	
-			</tr>
-		</table>
-	
+		 <table style="width:100%; border-spacing:0px">
+                        <tr>
+                                <td style="width:40%; height:50px; text-align:right;">
+                                        Derecha
+                                </td>
+                                <td style="width:20%;text-align:center;">
+                                        Centro
+                                </td>
+                                <td style="width:40%;text-align:left;">
+                                        Izquierda
+                                </td>
+                        </tr>
+                        <tr>
+                                <td style="width:40%;height:50px;vertical-align:top">
+                                        Arriba
+                                </td>
+                                <td style="width:20%">
+                                        Centro
+                                </td>
+                                <td style="width:40%;vertical-align:bottom">
+                                        Abajo
+                                </td>
+                        </tr>
+                        <tr>
+                                <td style="width:40%;height:50px;;vertical-align:top;text-align:right">
+                                        Arriba derecha
+                                </td>
+                                <td  align="center" style="width:20%">
+                                        Centro
+                                </td>
+                                <td style="width:40%;vertical-align:bottom;text-align:left;">
+                                        Abajo izquierda
+                                </td>
+                        </tr>
+                   </table>
+        <h2>13 tabla construida con caption, tbody, theader</h2>
+               	<table style="width:100%; border-spacing:0px">
+                        <caption>Titulo de la tabla</caption>
+                        <thead style="background-color:grey;color:white">
+                                <tr>
+                                        <th>Columna 1</th>
+                                        <th>Columna 2</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                        <td>Celda 1</td>
+                                        <td>Celda 2</td>
+                                </tr>
+                                <tr>
+                                        <td>Celda 3</td>
+                                        <td>Celda 4</td>
+                                </tr>
+                                <tr>
+                                        <td>Celda 5</td>
+                                        <td>Celda 6</td>
+                                </tr>
+                        </tbody>
+                </table>
+                <br>
+
+                <p style="background-color: red; padding:0.5em;"><em><a href="#inicio">Volver al inicio</a><br></em>
+				<hr>
+
+                <h1>TABLAS IRREGULARES</h1>
+                <br>
+                <h2>14 sin colspan</h2>
+                <table style="width:100%" border="1">
+                        <tr>
+                                <td style="background-color:white">
+                                        Uno
+                                </td>
+                                <td style="background-color:orange">
+                                        Dos
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Tres
+                                </td>
+                                <td>
+                                        Cuatro
+                                </td>
+                                <td>
+                                        Cinco
+                                </td>
+                        </tr>
+                </table>
+                <h2>15 con colspan</h2>
+                <table style="width:100%" border="1">
+                        <tr>
+                                <td style="background-color:white">
+                                        Uno
+                                </td>
+                                <td colspan="2" style="background-color:orange">
+                                        Esta celda ocupa dos columnas
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Tres
+                                </td>
+                                <td>
+                                        Cuatro
+                                </td>
+                                <td>
+                                        Cinco
+                                </td>
+                        </tr>
+                </table>
+                <h2>16 sin rowspan</h2>
+                <table style="width:100%" border="1">
+                        <tr>
+                                <td style="background-color:white">
+                                        Uno
+                                </td>
+                                <td style="background-color:orange">
+                                        Dos
+                                </td>
+                                <td>
+                                        Tres
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Tres
+                                </td>
+                                <td>
+                                        Cuatro
+                                </td>
+                                <td>
+                                        Cinco
+                                </td>
+                        </tr>
+                </table>
+
+
+                <h2>17 con rowspan</h2>
+                <table style="width:100%" border="1">
+                        <tr>
+                                <td rowspan="2" style="background-color:white">
+                                        Uno
+                                </td>
+                                <td style="background-color:orange">
+                                        Dos
+                                </td>
+                                <td>
+                                        Tres
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Cuatro
+                                </td>
+                                <td>
+                                        Cinco
+                                </td>
+                                <td>
+                                        Seis
+                                </td>
+                        </tr>
+                </table>
+                <br>
+                <table style="width:100%" border="1">
+                        <tr>
+                                <td rowspan="2" style="background-color:white">
+                                        Uno
+                                </td>
+                                <td style="background-color:orange">
+                                        Dos
+                                </td>
+                                <td>
+                                        Tres
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Cinco
+                                </td>
+                                <td>
+                                        Seis
+                                </td>
+                        </tr>
+                </table>
+
+
+                <h2>18 con rowspan y colspan</h2>
+                <table style="width:100%" border="1">
+                        <tr>
+                                <td rowspan="3" style="background-color:white">
+                                        Uno
+                                </td>
+                                <td style="background-color:orange">
+                                        Dos
+                                </td>
+                                <td colspan="2">
+                                        Tres
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Cuatro
+                                </td>
+                                <td>
+                                        Cinco
+                                </td>
+                                <td>
+                                        Seis
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        Siete
+                                </td>
+                                <td>
+                                        Ocho
+                                </td>
+                                <td>
+                                        Nueve
+                                </td>
+                        </tr>
+                </table>
+                <br>
+
+                <p style="background-color: red; padding:0.5em;"><em><a href="#inicio">Volver al inicio</a><br></em>
+				<hr>
 		
 		
 	</body>

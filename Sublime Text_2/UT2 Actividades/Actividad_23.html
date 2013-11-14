@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Actividad 23</title>
+			<link rel="stylesheet" href="">
+	</head>
+	<!--Diseña un formulario sencillo que contenga los siguientes campos:
+
+		Usuario: campo de texto de tamaño 20 y longitud máxima de 12.
+		Contraseña: campo de contraseña de tamaño 12 y longitud máxima de 12.
+		Servicio: menú desplegable con las opciones [http,ftp,file] y seleccionado por defecto ftp.
+		Enviar: botón con la imagen de submit.
+		Debes utilizar la etiqueta fieldset para agrupar todo los campos, con el título Datos de usuario. Se podrá recorrer los campos utilizando el tabulador (atributo tabindex). -->
+	<body>
+		
+		<form action="FormularioSencillo.html" method="post" accept-charset="utf-8">
+
+			<fieldset>
+
+					<legend>Datos de usuario</legend>
+					
+					Usuario: 
+						<input tabindex="1" type="text" name="usuario" placeholder="nombre de usuario" size="12" style="font-size:20px"> <br>
+					Contraseña:	
+						<input tabindex="2" type="password" value="Clave" size="12" style="font-size:12px"> <br>
+					Servicio: 
+						<select tabindex="3">
+							<option value="http">http</option>
+							<option selected value="ftp">ftp</option>
+							<option value="file">file</option>			 
+						</select> <br> <br>
+						<input type="image" src="botonEnviar.png" value="Enviar"> <br>
+
+			</fieldset>
+
+		</form>
+		
+	</body>
+
+</html>

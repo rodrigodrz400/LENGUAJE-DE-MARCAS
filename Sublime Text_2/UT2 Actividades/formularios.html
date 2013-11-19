@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<h1>Formulario 1</h1>
+		<form action="tratardatos.html" method="post">
+			<input type="text" name="usuario" value="" placeholder="nombre usuario">
+			<input type="submit" value="Enviar">
+			<input type="reset"  value="Borrar">
+		</form>
+
+		<h1>Formulario 2</h1>
+		<form action="#" method="post">
+			<input type="text" name="usuario" value="" placeholder="nombre usuario">
+			<button type="submit"><strong>Enviar</strong> datos</button>
+		</form>
+
+		<h1>Formulario 3</h1>
+		<form action="#" method="post">
+			
+			Usuario:
+			<input type="text" name="usuario" value="" placeholder="nombre usuario"> <br>
+			
+			Password:
+			<input type="password" value="Clave"> <br>
+			
+			Socio:
+			<input type="checkbox" name="socio" checked> <br>
+			
+			Sexo:
+			<input type="radio" name="Genero" value="m">Masculino
+			<input type="radio" name="Genero" value="f">Femenino <br>
+
+			Temas preferidos:
+			<input type="checkbox" name="Aventura" value="a"> Aventura
+			<input type="checkbox" name="Comedia" value="c"> Comedia
+			<input type="checkbox" name="Ficción" value="f"> Ficción <br>
+
+			Descuento:
+			<input type="text" name="Descuento" value="15%" size="3" readonly>
+			<input type="hidden" name="fecha" value=""><br>
+			<input type="file" name="adjunto">
+			<br>
+
+			Número: 0
+			<input type="range" name="numero" value="2" min="0" max="20">20<br>
+
+			Número:
+			<input type="number" name="numero" value="2" min="0" max="20"><br>
+			<textarea name="comentarios" rows="8">Comentarios</textarea><br>
+
+			Aficiones:
+			<select name="aficciones"multiple>
+				<option value="deporte" selected>Deporte</option>
+				<option value="ajedrez"selected>Ajedrez</option>
+				<option value="viajes">Viajes</option>
+			</select> <br>
+
+			<optgroup label="Otras">
+				<option value="001">Otro 1</option>
+				<option value="002">Otro 2</option>
+
+			</optgroup> 
+			<br> 
+			<input type="submit" value="Enviar">
+			<input type="reset"  value="Borrar">
+			<br>
+
+			<hr>
+			<h1>Formulario 4</h1>
+			
+			<form action="#" method="get">
+				<fieldset>
+					<legend>Login de Usuario</legend>
+				<label for="usuario">Usuario</label><input type="text" id="Usuario" name="Usuario" value="" placeholder="usuario"> <br>
+				<label for="clave">Contraseña</label> <input type="password" name="usuario" value="clave" placeholder="clave">
+				</fieldset>
+			</form>
+
+			<br>
+			
+			<hr>
+			<h1>Formulario 5</h1>
+			
+			<form action="#" method="get">
+				<table border="0">
+					<tr>			
+						<td style="text-align:right;"><label for="nombre">Nombre:</label><input type="text" name="nombre"></td>
+						<td style="text-align:right;"><label for="dni">DNI:</label><input type="text" name="dni"> </td>
+					</tr>
+					<tr>
+						<td style="text-align:right;"><label for="apellidos">Apellidos:</label><input type="text" name="apellidos"> </td>
+						<td style="text-align:right;"><label for="nacimiento">F. Nacimiento:</label><input type="text" name="nacimiento"></td> 
+					</tr>
+					
+					<tr>
+						<td colspan="2" >
+							<table border="0" style="width:100%">
+								<tr>
+									<td>Comentarios:</td>
+									<td style="width:75%"><textarea style="width:100%"name="comentarios"></textarea></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" style="text-align:center"><input type="submit" value="Enviar"></td>	
+					</tr>
+
+				</table>
+			</form>
+			
+
+	</body>
+</html>
+

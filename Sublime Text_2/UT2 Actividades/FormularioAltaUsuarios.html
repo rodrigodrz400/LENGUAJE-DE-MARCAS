@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			
+			<title>Formulario de alta de usuarios</title>
+		
+	</head>
+	<body>
+		<form action="FormularioAltaUsuarios_submit" method="get">
+			
+			<table border="1" style="width:50%">
+					<caption><h1><strong>Formulario de alta de usuarios</strong></h1></caption>
+						<thead>
+								<tr>
+									<td style="width:100%; text-align:center;">Identificador de nuevo usuario
+										<input disabled name="usuario" type="text" value="usu_012345"></td>
+								</tr>
+								<tr>
+									<td>
+									<table border="1" style="width:100%;">
+							
+								<tr>
+
+									<td style="width:50%; text-align:right;">Nombre: <input type="text" name="" value="nombre" ></td>
+									<td style="width:50%; text-align:right;">Apellidos: <input type="text" name="" value="apellidos"></td>
+								</tr>
+								<tr>
+									<td style="width:50%; text-align:right;">Contraseña: <input type="password" name="contraseña" value="contraseña"></td>
+									<td style="width:50%; text-align:right;">Confirmar contraseña: <input type="password" name="confirmarcontraseña" value="contraseña"></td>
+								</tr>
+						</thead>
+				</table>
+						
+					
+					
+				<table border="1" style="width:100%">
+						<tbody>
+							<tr>
+								<td style="width:25%; text-align:right;">Email:</td>
+								<td style="width:75%;"><input size="75%" type="email" name="" value="email" ></td>
+							</tr>
+							<tr>
+								<td style="width:25%; text-align:right;">Sexo:</td>
+								<td style="width:75%;">
+									<input type="radio" name="Genero" value="m">Varón
+									<input checked="checked" type="radio" name="Genero" value="f">Mujer
+								</td>
+							</tr>
+							<tr>
+								<td style="width:25%; text-align:right;">Afficiones:</td>
+								<td style="width:75%;">
+									<input type="checkbox" name="" value="deporte">Deporte <br>
+									<input type="checkbox" name="" value="lectura">Lectura <br>	
+									<input checked="checked" type="checkbox" name="" value="cine">Cine
+								</td>
+							</tr>
+							<tr>
+								<td style="width:25%; text-align:right;">País:</td>
+								<td style="width:75%;">
+									<select>
+										<option value="españa">España</option>
+										<option selected="selected" value="francia">Francia</option>
+										<option value="portugal">Portugal</option>
+								</td>
+							</tr>
+							<tr>
+								<td style="width:25%; text-align:right;">Colores favoritos:</td>
+								<td style="width:75%;">
+									<select multiple>
+										<option selected="selected" value="rojo">Rojo</option>
+										<option value="verde">Verde</option>
+										<option selected="selected" value="azul">Azul</option>
+									</select>
+							</tr>
+							<tr>
+								<td style="width:25%; text-align:right;">
+									Subir su foto:</td>
+								<td style="width:75%;">
+								<input type="file" name="foto" value="foto" >
+							</tr>
+							<tr>
+								<td style="width:25%; text-align:right;">
+									Comentarios <br> personales:</td>
+								<td style="width:75%;">
+								<textarea name="comentarios" rows="5" cols="40" style="width:50%;">Escriba aquí sus comentarios</textarea>
+							</tr>
+						</tbody>
+				</table>
+					<tfoot>
+					<table border="1" style="width:50%">
+						<tr>
+							<td style="text-align:center">
+								<button type="reset">Resetear</button>
+								<button type="submit">Enviar</button>
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align:center">
+							<button disabled type="mod">Modificar datos de usuario</button>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+		</form>
+
+	</body>
+</html>

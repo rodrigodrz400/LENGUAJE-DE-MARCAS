@@ -1,0 +1,39 @@
+body{
+	background-color: rgb(224,255,255);
+	margin-left: 75px;
+	margin-right: 75px;
+	font-family: Arial;
+
+}
+
+h1{
+	color: grey;
+	text-align: center;
+}
+.rosa{
+	border: 10px solid #ff0099;
+	background-color: #ffccff;
+	padding: 20px;
+	color: #999999;
+}
+.pie{
+	font-family: Times;
+	font-style: italic;
+	text-align: center;
+	margin-top: 100px;
+}
+.verde{
+	border: 10px solid #00cc00;
+	background-color: #99ff99;
+	padding: 20px;
+	color: #999999;
+}
+.azul{
+	border: 10px solid #3300ff;
+	background-color: #99ffff;
+	padding: 20px;
+	color: #999999;
+}
+hr{
+	margin-bottom: 50px;
+}

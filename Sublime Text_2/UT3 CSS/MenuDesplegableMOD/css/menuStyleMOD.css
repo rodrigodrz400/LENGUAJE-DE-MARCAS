@@ -1,0 +1,85 @@
+
+body{
+	 background-image: url("fondo.jpg");
+}
+nav{
+	text-align: center;
+	background: 156px;
+}
+.inicio img{
+	width: 30%;
+}
+	.inicio a:hover{
+		background: #3f5a7e;
+		height: 21px;
+	}
+.apagado img {
+	width: 25%;
+}
+	.apagado a:hover{
+		background: #3f5a7e;
+		height: 21px;
+	}
+nav .contenedor{
+	text-align: center;
+}
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+nav ul {
+	
+	background: #32404c;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	padding: 0 20px;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+nav ul li {
+	float: left;
+	height: 75px;
+	color: #85aacc;
+}
+	
+		nav ul li:hover a {
+			color: #f9f9f9;
+		}
+	
+	nav ul li a {
+		width: 100px;
+		display: block; 
+		padding: 27px 40px;
+		color: #ffffff; 
+		text-decoration: none;
+	}
+	nav ul li a:hover{
+		color: #85aacc;
+
+	}
+nav ul ul {
+	background: #5f6975; 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute;
+	 top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+nav ul ul li a{
+	width: 175px;
+}
